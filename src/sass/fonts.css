@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Resist Sans Text';
+    src: url('/fonts/ResistSansText-Thin.eot');
+    src: url('/fonts/ResistSansText-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/ResistSansText-Thin.woff2') format('woff2'),
+        url('/fonts/ResistSansText-Thin.woff') format('woff'),
+        url('/fonts/ResistSansText-Thin.ttf') format('truetype'),
+        url('/fonts/ResistSansText-Thin.svg#ResistSansText-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Resist Sans Text';
+    src: url('/fonts/ResistSansText-Bold.eot');
+    src: url('/fonts/ResistSansText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/ResistSansText-Bold.woff2') format('woff2'),
+        url('/fonts/ResistSansText-Bold.woff') format('woff'),
+        url('/fonts/ResistSansText-Bold.ttf') format('truetype'),
+        url('/fonts/ResistSansText-Bold.svg#ResistSansText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Resist Sans Text';
+    src: url('/fonts/ResistSansText-Regular.eot');
+    src: url('/fonts/ResistSansText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/ResistSansText-Regular.woff2') format('woff2'),
+        url('/fonts/ResistSansText-Regular.woff') format('woff'),
+        url('/fonts/ResistSansText-Regular.ttf') format('truetype'),
+        url('/fonts/ResistSansText-Regular.svg#ResistSansText-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Resist Sans Text';
+    src: url('/fonts/ResistSansText-Medium.eot');
+    src: url('R/fonts/esistSansText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/ResistSansText-Medium.woff2') format('woff2'),
+        url('/fonts/ResistSansText-Medium.woff') format('woff'),
+        url('/fonts/ResistSansText-Medium.ttf') format('truetype'),
+        url('/fonts/ResistSansText-Medium.svg#ResistSansText-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Android KG';
+    src: url('/fonts/AndroidKG.eot');
+    src: url('/fonts/AndroidKG.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/AndroidKG.woff2') format('woff2'),
+        url('/fonts/AndroidKG.woff') format('woff'),
+        url('/fonts/AndroidKG.ttf') format('truetype'),
+        url('/fonts/AndroidKG.svg#AndroidKG') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dela Gothic One';
+    src: url('/fonts/DelaGothicOne-Regular.eot');
+    src: url('/fonts/DelaGothicOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/DelaGothicOne-Regular.woff2') format('woff2'),
+        url('/fonts/DelaGothicOne-Regular.woff') format('woff'),
+        url('/fonts/DelaGothicOne-Regular.ttf') format('truetype'),
+        url('/fonts/DelaGothicOne-Regular.svg#DelaGothicOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

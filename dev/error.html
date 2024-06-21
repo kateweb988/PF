@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>КРУТИМ</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap">
+		<header class="header error" id="error">
+			<img src="img/err.png" alt="" class="header__bg">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="main.html" class="nav__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<ul>
+							<li>
+								<a href="main.html#how">
+									Как это работает
+								</a>
+							</li>
+							<li>
+								<a href="main.html#van">
+									Преимущества
+								</a>
+							</li>
+							<li>
+								<a href="main.html#info">
+									О нас
+								</a>
+							</li>
+							<li>
+								<a href="main.html#step">
+									Порядок работы
+								</a>
+							</li>
+							<li>
+								<a href="main.html#call">
+									Оставить заявку
+								</a>
+							</li>
+						</ul>
+						<div class="nav__content q">
+							<a href="tel:" class="nav__tel">
+								+7 (495) 123 45 67
+							</a>
+							<a href="#" class="nav__btn btn btn_2">
+								Заказать звонок
+							</a>
+						</div>
+					</div>
+					<div class="menu-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="menu">
+						<a href="#" class="nav__link">
+							заказать звонок
+						</a>
+					</div>
+				</div>
+			</nav>
+			<div class="header__wrap">
+				<div class="container">
+					<h1>
+						страница <br>
+						не найдена
+					</h1>
+					<p>
+						Страница, на которую вы пытаетесь попасть, <br>
+						не существует или была удалена.
+					</p>
+					<a href="main.html" class="header__btn btn">
+						Вернуться на главную <img src="img/ar.svg" alt="" class="svg">
+					</a>
+				</div>
+			</div>
+		</header>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__wrap">
+					<div class="footer__box q">
+						<img src="img/footer-logo.svg" alt="" class="footer__logo">
+						<div class="footer__content q">
+							<div class="footer__item">
+								<p>
+									Звоните с 10:00 до 19:00
+								</p>
+								<a href="tel:84951234567">
+									8 (495) 123-45-67
+								</a>
+							</div>
+							<div class="footer__item">
+								<p>
+									Мы любим, когда нам пишут
+								</p>
+								<a href="mailto:hello@накрутка.онлайн">
+									hello@накрутка.онлайн
+								</a>
+							</div>
+							<div class="footer__item">
+								<p>
+									Наши мессенджеры
+								</p>
+								<div class="footer__socials q">
+									<a href="#" target="_blank">
+										<img src="img/f1.svg" alt="" class="svg">
+									</a>
+									<a href="#" target="_blank">
+										<img src="img/f2.svg" alt="" class="svg">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom q">
+						<p class="footer__policy">
+							Copyright © 2023 Крутим.онлайн. <a href="#" target="_blank"> Политика конфиденциальности</a>.
+						</p>
+						<a href="#" class="footer__com" target="_blank">
+							Разработали в <span> Адванс</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div style="display:none;">
+			<div class="box-modal" id="popup-call">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="svg">
+					</div>
+					<h2 class="green">
+						Обратный звонок
+					</h2>
+					<p>
+						Оставьте ваши данные и мы свяжемся <br>
+						с Вами в ближайшее время.
+					</p>
+					<form action="success.php" class="call__form js-form" id="popupResult" method="post">
+						<input type="text" placeholder="Как к вам обращаться?" name="name" class="form__field" required="">
+						<input type="tel" placeholder="Контактный телефон" class="tel form__field" name="tel" required="">
+						<input type="email" placeholder="E-mail" class="form__field" name="email" required="">
+						<button class="btn call__btn" data-submit>
+							Отправить заявку <img src="img/ar.svg" alt="" class="svg">
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div style="display:none;">
+			<div class="box-modal" id="popup-thank">
+				<div class="popup-call__box popup3">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="svg">
+					</div>
+					<h2 class="green">
+						Спасибо за заявку!
+					</h2>
+					<p>
+						Мы свяжемся с вами в ближайшее время.
+					</p>
+					<img src="img/popup.png" alt="" class="popup">
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+		<script src="js/all.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.js"></script>
+		<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+		<script type="text/javascript"
+			src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+</body>
+
+</html>
