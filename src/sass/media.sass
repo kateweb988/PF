@@ -71,6 +71,8 @@
    .footer__item:nth-child(2) 
       margin: 0 50px 0 50px
 @media screen and (max-width: 1199px)
+   .step__item:after
+      display: none
    .nav__btn
       display: none
    .header__wrap
@@ -457,6 +459,23 @@
    .footer
       position: relative
       z-index: 2
+   .header__bottom, .step, .area
+      .container
+         padding-right: 0
+   .header__row, .step__box
+      &:after 
+         content: ""
+         display: flex
+         flex: 1 0 auto
+         max-width: 20px
+         align-items: center
+         width: 20px
+         height: 20px
+         background: transparent
+   .call__content p
+      font-size: 18px
+   .area__box 
+      padding-right: 20px
 @media screen and (max-width: 360px)
    .footer__item a
       font-size: 23px
